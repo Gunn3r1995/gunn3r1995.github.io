@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https:gunn3r1995.github.io/post/00001-10-01-2019-firstblog/</loc>
+  </url>
+  
+  <url>
+    <loc>https:gunn3r1995.github.io/post/00002-11-01-2019-stickfeeditems/</loc>
+  </url>
+  
+  <url>
+    <loc>https:gunn3r1995.github.io/post/00005-12-01-2019-creatingtheblog/</loc>
+  </url>
+  
+  <url>
     <loc>https:gunn3r1995.github.io/top/about/</loc>
   </url>
   
@@ -12,6 +24,11 @@
   
   <url>
     <loc>https:gunn3r1995.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https:gunn3r1995.github.io/post/</loc>
     <priority>0</priority>
   </url>
   
