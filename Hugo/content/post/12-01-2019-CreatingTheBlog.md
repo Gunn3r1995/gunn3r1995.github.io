@@ -5,6 +5,9 @@ subtitle:   "what do I do"
 date:       2019-01-12
 author:     "Shane Smith"
 # image:      ""
+tags: 
+    - General
+# categories: [ ]
 ---
 
 # Creating the blog

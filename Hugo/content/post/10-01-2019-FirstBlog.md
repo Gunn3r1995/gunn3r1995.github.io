@@ -2,9 +2,14 @@
 layout:     post 
 title:      "Welcome to Shane's Blog"
 subtitle:   "Hello World, Hello Blog"
+# description: ""
+# excerpt: ""
 date:       2019-01-10
 author:     "Shane Smith"
 image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
+tags: 
+    - General
+categories: [ Tech ]
 ---
 
 # First Blog

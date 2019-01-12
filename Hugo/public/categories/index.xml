@@ -6,9 +6,37 @@
     <description>Recent content in Categories on Shane&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
+    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https:gunn3r1995.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C#</title>
+      <link>https:gunn3r1995.github.io/categories/c/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https:gunn3r1995.github.io/categories/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https:gunn3r1995.github.io/categories/development/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https:gunn3r1995.github.io/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https:gunn3r1995.github.io/categories/tech/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https:gunn3r1995.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -5,6 +5,10 @@ subtitle:   "The hunt for the sticky"
 date:       2019-01-11
 author:     "Shane Smith"
 image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
+tags: 
+    - CSharp
+    - Development
+categories: [ Development, C# ]
 ---
 
 # Returning Negative and Positive Numbers
