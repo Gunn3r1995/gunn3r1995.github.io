@@ -1,3 +1,12 @@
+---
+layout:     post 
+title:      "Creating the blog"
+subtitle:   "what do I do"
+date:       2019-01-12
+author:     "Shane Smith"
+# image:      ""
+---
+
 # Creating the blog
 
 Today I was researching in the best and path of least resistance for creating and hosting this blog.

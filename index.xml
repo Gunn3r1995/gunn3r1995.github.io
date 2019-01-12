@@ -6,26 +6,26 @@
     <description>Recent content on Shane&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https:gunn3r1995.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Welcome to Shane&#39;s Blog</title>
-      <link>https:gunn3r1995.github.io/post/10-01-2019-firstblog/</link>
-      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Creating the blog</title>
+      <link>https:gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:gunn3r1995.github.io/post/10-01-2019-firstblog/</guid>
-      <description>First Blog This is my first post.
-What it is This is going to be my personal blog update on my day-to-day life as a developer, what features and code I implemented, how I did it and what I learned. As well as any usefully sources or information found while developing; focusing mainly on the technical aspects.
-Why  I want to. Improves my organisation. Helps me remember.  So here goes Today (10/01/2019) I worked on the Feature Notes Builder.</description>
+      <guid>https:gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</guid>
+      <description>Creating the blog Today I was researching in the best and path of least resistance for creating and hosting this blog.
+The easy part was hosting; GitHub pages, it&amp;rsquo;s free and provide full flexibility.
+I wanted to use Hugo as it allows for very customisable themes (I could create my own in the future). But right now I wanted a quick solution. I could potential use one of them blogging sites like wordpress, but that&amp;rsquo;s boring.</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Returning Negative and Positive Numbers</title>
       <link>https:gunn3r1995.github.io/post/11-01-2019-stickfeeditems/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https:gunn3r1995.github.io/post/11-01-2019-stickfeeditems/</guid>
       <description>Returning Negative and Positive Numbers Abstract Due to the calculations of a piece of work I required to do the following check [Appear Date] &amp;gt;= DateTime.Now.AddDays(-X) where X is the amount of days to add. This determined whether the item supplied should be &amp;lsquo;sticky&amp;rsquo; and therefore at the top of a feed or not.
@@ -34,14 +34,14 @@ For Example:
     </item>
     
     <item>
-      <title></title>
-      <link>https:gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Welcome to Shane&#39;s Blog</title>
+      <link>https:gunn3r1995.github.io/post/10-01-2019-firstblog/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</guid>
-      <description>Creating the blog Today I was researching in the best and path of least resistance for creating and hosting this blog.
-The easy part was hosting; GitHub pages, it&amp;rsquo;s free and provide full flexibility.
-I wanted to use Hugo as it allows for very customisable themes (I could create my own in the future). But right now I wanted a quick solution. I could potential use one of them blogging sites like wordpress, but that&amp;rsquo;s boring.</description>
+      <guid>https:gunn3r1995.github.io/post/10-01-2019-firstblog/</guid>
+      <description>First Blog This is my first post.
+What it is This is going to be my personal blog update on my day-to-day life as a developer, what features and code I implemented, how I did it and what I learned. As well as any useful sources or information found while developing; focusing mainly on the technical aspects.
+Why  I want to. Improves my organisation. Helps me remember.  So here goes Today (10/01/2019) I worked on the Feature Notes Builder.</description>
     </item>
     
     <item>
@@ -62,6 +62,15 @@ He loves open source and has been contributing to a variety of open source proje
       
       <guid>https:gunn3r1995.github.io/top/books/</guid>
       <description>Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记 讲师: 吴恩达(Andrew Ng)  课程地址：https://www.coursera.org/learn/machine-learning</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https:gunn3r1995.github.io/top/useful/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https:gunn3r1995.github.io/top/useful/</guid>
+      <description> Useful TITLE TITLE  URL: https://github.com/Microsoft/azure-devops-node-api TITLE TITLE  URL: https://github.com/Microsoft/azure-devops-node-api TITLE TITLE  URL: https://github.com/Microsoft/azure-devops-node-api TITLE TITLE  URL: https://github.com/Microsoft/azure-devops-node-api  https://docs.microsoft.com/en-gb/rest/api/azure/devops/?view=vsts-rest-tfs-4.1 https://docs.microsoft.com/en-gb/azure/devops/extend/reference/client/core-sdk?view=vsts https://docs.microsoft.com/en-us/azure/devops/index?view=vsts#pivot=index&amp;amp;panel=indexA https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/pats?view=tfs-2018  </description>
     </item>
     
   </channel>
