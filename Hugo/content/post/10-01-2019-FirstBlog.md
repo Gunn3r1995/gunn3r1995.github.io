@@ -9,7 +9,7 @@ author:     "Shane Smith"
 image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
 tags: 
     - General
-categories: [ Tech ]
+categories: [ Life ]
 ---
 
 # First Blog

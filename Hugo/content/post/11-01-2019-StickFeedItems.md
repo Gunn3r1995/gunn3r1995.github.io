@@ -8,7 +8,7 @@ image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
 tags: 
     - CSharp
     - Development
-categories: [ Development, C# ]
+categories: [ Development ]
 ---
 
 # Returning Negative and Positive Numbers
@@ -65,7 +65,7 @@ positiveResult = System.Math.Abs(positiveNumber) * (-1);
 Console.WriteLine(positiveResult);
 ```
 
-``` c sharp
+```c sharp
 // Outputs
 > 25
 > 25

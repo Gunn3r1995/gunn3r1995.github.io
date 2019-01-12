@@ -7,7 +7,7 @@ author:     "Shane Smith"
 # image:      ""
 tags: 
     - General
-# categories: [ ]
+categories: [ Life ]
 ---
 
 # Creating the blog

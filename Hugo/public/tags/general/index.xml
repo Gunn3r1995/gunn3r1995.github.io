@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on Shane&#39;s Blog</title>
-    <link>https:gunn3r1995.github.io/tags/general/</link>
+    <link>https://gunn3r1995.github.io/tags/general/</link>
     <description>Recent content in General on Shane&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
+    <language>en-GB</language>
     <lastBuildDate>Sat, 12 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https:gunn3r1995.github.io/tags/general/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gunn3r1995.github.io/tags/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating the blog</title>
-      <link>https:gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</link>
+      <link>https://gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</link>
       <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</guid>
+      <guid>https://gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</guid>
       <description>Creating the blog Today I was researching in the best and path of least resistance for creating and hosting this blog.
 The easy part was hosting; GitHub pages, it&amp;rsquo;s free and provide full flexibility.
 I wanted to use Hugo as it allows for very customisable themes (I could create my own in the future). But right now I wanted a quick solution. I could potential use one of them blogging sites like wordpress, but that&amp;rsquo;s boring.</description>
@@ -24,10 +24,10 @@ I wanted to use Hugo as it allows for very customisable themes (I could create m
     
     <item>
       <title>Welcome to Shane&#39;s Blog</title>
-      <link>https:gunn3r1995.github.io/post/10-01-2019-firstblog/</link>
+      <link>https://gunn3r1995.github.io/post/10-01-2019-firstblog/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:gunn3r1995.github.io/post/10-01-2019-firstblog/</guid>
+      <guid>https://gunn3r1995.github.io/post/10-01-2019-firstblog/</guid>
       <description>First Blog This is my first post.
 What it is This is going to be my personal blog update on my day-to-day life as a developer, what features and code I implemented, how I did it and what I learned. As well as any useful sources or information found while developing; focusing mainly on the technical aspects.
 Why  I want to. Improves my organisation. Helps me remember.  So here goes Today (10/01/2019) I worked on the Feature Notes Builder.</description>
