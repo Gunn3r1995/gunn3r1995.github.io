@@ -17,5 +17,3 @@ So the plan for now goes like*:
 5. Run a small copy & past script to copy the outputted `public` folder to the location of my GitHub pages site.
 
 > \* Eventually instead of manually doing the above, it will be completed automatically, either by online tools or as a scheduled task.
-
-## The 
