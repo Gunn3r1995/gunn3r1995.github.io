@@ -1,5 +1,6 @@
-## [Machine learning学习笔记](https://zhaohuabing.com/machine-learning) 
+## [THe Martian](http://www.andyweirauthor.com/books/the-martian-tr)
 
-Coursera 在线课程 [Machine learning]( https://www.coursera.org/learn/machine-learning) 笔记<BR>
-讲师: 吴恩达(Andrew Ng) <BR>
-课程地址：https://www.coursera.org/learn/machine-learning<BR>
+**Author**: Andy Weir <BR>
+*Reference*: Weir, A., 2011. The Martian. 1st ed. United States: Crown Publishing. <BR>
+*Blurb*: dsf sdkfsdahf jkdsafjkdskfj sdkjfh ksdf ds <BR>
+*Thoughts*：kfhdksjgfkdsjfnkjdsb dsfh fjdsafdsf<BR>
