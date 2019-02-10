@@ -13,11 +13,12 @@
     
     <item>
       <title>Updating the Blog using Git Submodules</title>
-      <link>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</link>
+      <link>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</link>
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</guid>
-      <description> What is Hugo What are Git submodules </description>
+      <guid>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</guid>
+      <description> What is Hugo https://gohugo.io/hosting-and-deployment/hosting-on-github/
+What are Git submodules </description>
     </item>
     
   </channel>

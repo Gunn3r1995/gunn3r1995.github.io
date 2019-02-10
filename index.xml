@@ -12,20 +12,31 @@
     
     
     <item>
-      <title>Updating the Blog using Git Submodules</title>
-      <link>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</link>
+      <title>Books</title>
+      <link>https://gunn3r1995.github.io/top/books/</link>
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</guid>
-      <description> What is Hugo What are Git submodules </description>
+      <guid>https://gunn3r1995.github.io/top/books/</guid>
+      <description>The Martian 
+Author: Andy Weir Reference: Weir, A., 2011. The Martian. 1st ed. United States: Crown Publishing. Thoughts: Astonishing book which always kept me turning to the next page. The technically details keeps the story relentlessly precise while Mark Watney&amp;rsquo;s wit and charm always kept me laughing.</description>
+    </item>
+    
+    <item>
+      <title>Updating the Blog using Git Submodules</title>
+      <link>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</guid>
+      <description> What is Hugo https://gohugo.io/hosting-and-deployment/hosting-on-github/
+What are Git submodules </description>
     </item>
     
     <item>
       <title>Creating the blog</title>
-      <link>https://gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</link>
+      <link>https://gunn3r1995.github.io/post/2019-01-12-creatingtheblog/</link>
       <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</guid>
+      <guid>https://gunn3r1995.github.io/post/2019-01-12-creatingtheblog/</guid>
       <description>Creating the blog Today I was researching in the best and path of least resistance for creating and hosting this blog.
 The easy part was hosting; GitHub pages, it&amp;rsquo;s free and provide full flexibility.
 I wanted to use Hugo as it allows for very customisable themes (I could create my own in the future). But right now I wanted a quick solution. I could potential use one of them blogging sites like wordpress, but that&amp;rsquo;s boring.</description>
@@ -33,10 +44,10 @@ I wanted to use Hugo as it allows for very customisable themes (I could create m
     
     <item>
       <title>Returning Negative and Positive Numbers</title>
-      <link>https://gunn3r1995.github.io/post/11-01-2019-stickfeeditems/</link>
+      <link>https://gunn3r1995.github.io/post/2019-01-11-stickfeeditems/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gunn3r1995.github.io/post/11-01-2019-stickfeeditems/</guid>
+      <guid>https://gunn3r1995.github.io/post/2019-01-11-stickfeeditems/</guid>
       <description>Returning Negative and Positive Numbers Abstract Due to the calculations of a piece of work I required to do the following check [Appear Date] &amp;gt;= DateTime.Now.AddDays(-X) where X is the amount of days to add. This determined whether the item supplied should be &amp;lsquo;sticky&amp;rsquo; and therefore at the top of a feed or not.
 For Example:
 10/01/2019 13:00:00 &amp;gt;= (11/01/2019 14:57:37 - 3 Days) == true; // Sticky 05/01/2019 13:00:00 &amp;gt;= (11/01/2019 14:57:37 - 3 Days) == false; // Not Sticky  However, for readability I wanted X the number of days to be sticky to be a negative number, even if supplied with a positive number.</description>
@@ -44,10 +55,10 @@ For Example:
     
     <item>
       <title>Welcome to Shane&#39;s Blog</title>
-      <link>https://gunn3r1995.github.io/post/10-01-2019-firstblog/</link>
+      <link>https://gunn3r1995.github.io/post/2019-01-10-firstblog/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gunn3r1995.github.io/post/10-01-2019-firstblog/</guid>
+      <guid>https://gunn3r1995.github.io/post/2019-01-10-firstblog/</guid>
       <description>First Blog This is my first post.
 What it is This is going to be my personal blog update on my day-to-day life as a developer, what features and code I implemented, how I did it and what I learned. As well as any useful sources or information found while developing; focusing mainly on the technical aspects.
 Why  I want to. Improves my organisation. Helps me remember.  So here goes Today (10/01/2019) I worked on the Feature Notes Builder.</description>
@@ -60,15 +71,6 @@ Why  I want to. Improves my organisation. Helps me remember.  So here goes Today
       
       <guid>https://gunn3r1995.github.io/top/about/</guid>
       <description>About me _ShaneSmith&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://gunn3r1995.github.io/top/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gunn3r1995.github.io/top/books/</guid>
-      <description> THe Martian Author: Andy Weir Reference: Weir, A., 2011. The Martian. 1st ed. United States: Crown Publishing. *Thoughts*：Astonishing book which always kept me turning to the next page. The technically details keeps the story relentlessly precise while Mark Watney&amp;rsquo;s wit and charm always kept me laughing. </description>
     </item>
     
     <item>

@@ -13,19 +13,20 @@
     
     <item>
       <title>Updating the Blog using Git Submodules</title>
-      <link>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</link>
+      <link>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</link>
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</guid>
-      <description> What is Hugo What are Git submodules </description>
+      <guid>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</guid>
+      <description> What is Hugo https://gohugo.io/hosting-and-deployment/hosting-on-github/
+What are Git submodules </description>
     </item>
     
     <item>
       <title>Returning Negative and Positive Numbers</title>
-      <link>https://gunn3r1995.github.io/post/11-01-2019-stickfeeditems/</link>
+      <link>https://gunn3r1995.github.io/post/2019-01-11-stickfeeditems/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gunn3r1995.github.io/post/11-01-2019-stickfeeditems/</guid>
+      <guid>https://gunn3r1995.github.io/post/2019-01-11-stickfeeditems/</guid>
       <description>Returning Negative and Positive Numbers Abstract Due to the calculations of a piece of work I required to do the following check [Appear Date] &amp;gt;= DateTime.Now.AddDays(-X) where X is the amount of days to add. This determined whether the item supplied should be &amp;lsquo;sticky&amp;rsquo; and therefore at the top of a feed or not.
 For Example:
 10/01/2019 13:00:00 &amp;gt;= (11/01/2019 14:57:37 - 3 Days) == true; // Sticky 05/01/2019 13:00:00 &amp;gt;= (11/01/2019 14:57:37 - 3 Days) == false; // Not Sticky  However, for readability I wanted X the number of days to be sticky to be a negative number, even if supplied with a positive number.</description>

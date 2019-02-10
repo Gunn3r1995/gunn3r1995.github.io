@@ -13,9 +13,9 @@
     <meta name="keyword"  content="Keyword1, Keyword2">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Development-Shane&#39;s Blog</title>
+    <title>Updating the Blog using Git Submodules-Shane&#39;s Blog</title>
 
-    <link rel="canonical" href="/tags/development/">
+    <link rel="canonical" href="/post/2019-02-10-updatingblogusinggitsubmodules/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -129,14 +129,39 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/home-bg-jeep.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+<header class="intro-header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Shane&#39;s Blog </h1>
-                    
-		    <span class="subheading">Hello World!</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/git" title="Git">
+                            Git
+                        </a>
+                        
+                        <a class="tag" href="/tags/automation" title="Automation">
+                            Automation
+                        </a>
+                        
+                    </div>
+                    <h1>Updating the Blog using Git Submodules</h1>
+                    <h2 class="subheading">Adding the Sub to modules</h2>
+                    <span class="meta">
+			Posted by 
+			
+			    Shane Smith
+			 
+			on 
+			Sunday, February 10, 2019
+                        
+                    </span>
                 </div>
             </div>
         </div>
@@ -145,156 +170,94 @@
 
 
 
-  
-<div class="container">
-    <div class="row">
-        
-        
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
-            
 
-<div class="post-preview">
-    <a href="https://gunn3r1995.github.io/post/2019-01-11-stickfeeditems/">
-        <h2 class="post-title">
-            Returning Negative and Positive Numbers
-        </h2>
-	
-        <h3 class="post-subtitle">
-            The hunt for the sticky
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            Returning Negative and Positive Numbers Abstract Due to the calculations of a piece of work I required to do the following check [Appear Date] &gt;= DateTime.Now.AddDays(-X) where X is the amount of days to add. This determined whether the item supplied should be &lsquo;sticky&rsquo; and therefore at the top of a feed or not.
-For Example:
-10/01/2019 13:00:00 &gt;= (11/01/2019 14:57:37 - 3 Days) == true; // Sticky 05/01/2019 13:00:00 &gt;= (11/01/2019 14:57:37 - 3 Days) == false; // Not Sticky  However, for readability I wanted X the number of days to be sticky to be a negative number, even if supplied with a positive number.
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    Posted by Shane Smith Friday, January 11, 2019
-    </p>
-</div>
-<hr>
-
+<article>
+    <div class="container">
+        <div class="row">
 
             
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-
-
-       	</div>
-        
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
-             
-            
                 
-            
+                <header>
+                    <h2>TOC</h2>
+                </header>
+                <nav id="TableOfContents">
+<ul>
+<li><a href="#what-is-hugo">What is Hugo</a></li>
+<li><a href="#what-are-git-submodules">What are Git submodules</a></li>
+</ul>
+</nav>
                 
-            
                 
-            
-                
-                    <a href="/tags/general" title="General">
-                        General
-                    </a>
-                
-            
-                
-            
-        </div>
-    </section>
-    
 
-    
-    <section class="visible-md visible-lg">
-        <hr><h5><a href="">ABOUT ME</a></h5>
-        <div class="short-about">
-            
-            <img src="/img/Shane.jpg" />
-            
-            
-                <p>Software Developer, Open Source Enthusiast and Life Adventurer</p>
-            
-           
-           <ul class="list-inline"> 
-               
-               <li>
-                   <a href="https://gunn3r1995.github.io/tags/development/index.xml" rel="alternate" type="application/rss+xml" title="Shane&#39;s Blog" >
-                       <span class="fa-stack fa-lg">
-                           <i class="fa fa-circle fa-stack-2x"></i>
-                           <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/gunn3r1995">
-                       <span class="fa-stack fa-lg">
-                           <i class="fa fa-circle fa-stack-2x"></i>
-                           <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               <li>
-                   <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
-                       <span class="fa-stack fa-lg">
-                           <i class="fa fa-circle fa-stack-2x"></i>
-                           <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
+<h1 id="what-is-hugo">What is Hugo</h1>
+
+<p><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
+
+<h1 id="what-are-git-submodules">What are Git submodules</h1>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/2019-01-12-creatingtheblog/" data-toggle="tooltip" data-placement="top" title="Creating the blog">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
                 </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
             </div>
-    </section>
-    
-    
-
-    
-    
-    <section>
-        <hr>
-        <h5>BOOKMARKS</h5>
-        <ul class="list-inline">
             
-            <li><a target="_blank" href="http://google.co.uk">Google</a></li>
-            
-        </ul>
-    </section>
-    
-</div>
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
 
-	</div>
-</div>
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/general" title="General">
+                            General
+                        </a>
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
 
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
 
 
 
@@ -306,7 +269,7 @@ For Example:
                 <ul class="list-inline text-center">
                    
                    <li>
-                       <a href="https://gunn3r1995.github.io/tags/development/index.xml" rel="alternate" type="application/rss+xml" title="Shane&#39;s Blog" >
+                       <a href="" rel="alternate" type="application/rss+xml" title="Shane&#39;s Blog" >
                            <span class="fa-stack fa-lg">
                                <i class="fa fa-circle fa-stack-2x"></i>
                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>

@@ -3,31 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</loc>
+    <loc>https://gunn3r1995.github.io/top/books/</loc>
     <lastmod>2019-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gunn3r1995.github.io/post/12-01-2019-creatingtheblog/</loc>
+    <loc>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gunn3r1995.github.io/post/2019-01-12-creatingtheblog/</loc>
     <lastmod>2019-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gunn3r1995.github.io/post/11-01-2019-stickfeeditems/</loc>
+    <loc>https://gunn3r1995.github.io/post/2019-01-11-stickfeeditems/</loc>
     <lastmod>2019-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gunn3r1995.github.io/post/10-01-2019-firstblog/</loc>
+    <loc>https://gunn3r1995.github.io/post/2019-01-10-firstblog/</loc>
     <lastmod>2019-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gunn3r1995.github.io/top/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gunn3r1995.github.io/top/books/</loc>
   </url>
   
   <url>
@@ -52,14 +53,14 @@
   </url>
   
   <url>
-    <loc>https://gunn3r1995.github.io/categories/development/</loc>
-    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
+    <loc>https://gunn3r1995.github.io/tags/development/</loc>
+    <lastmod>2019-01-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gunn3r1995.github.io/tags/development/</loc>
-    <lastmod>2019-01-11T00:00:00+00:00</lastmod>
+    <loc>https://gunn3r1995.github.io/categories/development/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -101,6 +102,7 @@
   
   <url>
     <loc>https://gunn3r1995.github.io/top/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
