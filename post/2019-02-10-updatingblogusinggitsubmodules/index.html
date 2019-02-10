@@ -187,18 +187,33 @@
                 </header>
                 <nav id="TableOfContents">
 <ul>
-<li><a href="#what-is-hugo">What is Hugo</a></li>
-<li><a href="#what-are-git-submodules">What are Git submodules</a></li>
+<li><a href="#updating-the-blog-using-git-submodules">Updating the blog using Git submodules</a>
+<ul>
+<li><a href="#what-the-process-is-now">What the process is now</a></li>
+</ul></li>
 </ul>
 </nav>
                 
                 
 
-<h1 id="what-is-hugo">What is Hugo</h1>
+<h1 id="updating-the-blog-using-git-submodules">Updating the blog using Git submodules</h1>
 
-<p><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
+<p>In a previous post (<a href="/post/2019-01-12-creatingtheblog">Creating the blog</a>) I spoke about a plan to do small copy &amp; paste script of the <code>public</code> folder, and then updating the git repository.</p>
 
-<h1 id="what-are-git-submodules">What are Git submodules</h1>
+<p>This has changed since then as after a bit of research I found this tutorial <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hosting Hugo site on GitHub</a>. This uses Git submodules to allow for easy updating of both the content of the blog and the publishing it to the github pages site.</p>
+
+<h2 id="what-the-process-is-now">What the process is now</h2>
+
+<p>Now all I need to do to update the Blog (even from a new machine) is the following*:</p>
+
+<ol>
+<li><code>git clone &lt;Blog-Hugo-Repository&gt;</code> where <strong>&lt;Blog-Hugo-Repository&gt;</strong> is the git repository, which holds the Hugo site and content, or if already cloned ensure up to date by running <code>git pull</code>.</li>
+<li>Add/Update the blog how you please using your normal Hugo ways.</li>
+<li>In the console/terminal run the <code>./deploy.sh &quot;Optional commit message&quot;</code> this sends all my Blog changes to the <code>&lt;USERNAME&gt;.github.io</code> repository which automatically updates the Github pages site.</li>
+<li>Commit and push your changes of the <code>&lt;Blog-Hugo-Repository&gt;</code> by running <code>git commit -am &quot;Changes to the blog&quot;</code> followed by <code>git push</code>.</li>
+</ol>
+
+<p>* Follow the <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hosting Hugo site on GitHub</a> tutorial.</p>
 
 
                 

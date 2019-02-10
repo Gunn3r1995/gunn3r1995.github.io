@@ -17,8 +17,8 @@
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://gunn3r1995.github.io/post/2019-02-10-updatingblogusinggitsubmodules/</guid>
-      <description> What is Hugo https://gohugo.io/hosting-and-deployment/hosting-on-github/
-What are Git submodules </description>
+      <description>Updating the blog using Git submodules In a previous post (Creating the blog) I spoke about a plan to do small copy &amp;amp; paste script of the public folder, and then updating the git repository.
+This has changed since then as after a bit of research I found this tutorial Hosting Hugo site on GitHub. This uses Git submodules to allow for easy updating of both the content of the blog and the publishing it to the github pages site.</description>
     </item>
     
   </channel>
