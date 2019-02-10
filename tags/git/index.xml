@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Shane&#39;s Blog</title>
+    <link>https://gunn3r1995.github.io/tags/git/</link>
+    <description>Recent content in Git on Shane&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gunn3r1995.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updating the Blog using Git Submodules</title>
+      <link>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</guid>
+      <description> What is Hugo What are Git submodules </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Shane&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gunn3r1995.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automation</title>
+      <link>https://gunn3r1995.github.io/tags/automation/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunn3r1995.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CSharp</title>
@@ -35,6 +44,15 @@
       <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://gunn3r1995.github.io/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://gunn3r1995.github.io/tags/git/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunn3r1995.github.io/tags/git/</guid>
       <description></description>
     </item>
     

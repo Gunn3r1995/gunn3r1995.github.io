@@ -6,10 +6,19 @@
     <description>Recent content on Shane&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gunn3r1995.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Updating the Blog using Git Submodules</title>
+      <link>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunn3r1995.github.io/post/10-02-2019-updatingblogusinggitsubmodules/</guid>
+      <description> What is Hugo What are Git submodules </description>
+    </item>
     
     <item>
       <title>Creating the blog</title>
