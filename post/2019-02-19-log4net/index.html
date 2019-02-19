@@ -13,9 +13,9 @@
     <meta name="keyword"  content="Keyword1, Keyword2">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Creating the blog-Shane&#39;s Blog</title>
+    <title>Logging with Log4Net-Shane&#39;s Blog</title>
 
-    <link rel="canonical" href="/post/2019-01-12-creatingtheblog/">
+    <link rel="canonical" href="/post/2019-02-19-log4net/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -142,20 +142,24 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/general" title="General">
-                            General
+                        <a class="tag" href="/tags/development" title="Development">
+                            Development
+                        </a>
+                        
+                        <a class="tag" href="/tags/csharp" title="CSharp">
+                            CSharp
                         </a>
                         
                     </div>
-                    <h1>Creating the blog</h1>
-                    <h2 class="subheading">what do I do</h2>
+                    <h1>Logging with Log4Net</h1>
+                    <h2 class="subheading">Log.Error(&#34;ERROR&#34;);</h2>
                     <span class="meta">
 			Posted by 
 			
 			    Shane Smith
 			 
 			on 
-			Saturday, January 12, 2019
+			Tuesday, February 19, 2019
                         
                     </span>
                 </div>
@@ -183,38 +187,122 @@
                 </header>
                 <nav id="TableOfContents">
 <ul>
-<li><a href="#creating-the-blog">Creating the blog</a>
+<li><a href="#what-is-log4net">What is Log4Net?</a>
 <ul>
-<li><a href="#the-plan">The Plan</a></li>
+<li><a href="#why-blog-about-it">Why Blog about it?</a></li>
+<li><a href="#implementing-log4net">Implementing Log4Net</a>
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#configuring">Configuring</a></li>
+<li><a href="#usage">Usage</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
                 
                 
 
-<h1 id="creating-the-blog">Creating the blog</h1>
+<h1 id="what-is-log4net">What is Log4Net?</h1>
 
-<p>Today I was researching in the best and path of least resistance for creating and hosting this blog.</p>
+<p><a href="http://logging.apache.org/log4net/">Log4Net</a> is a very useful logging tool for .NET projects. For easy to configure and implement logging to multiple destinations including Console, File, SQL databases, and many others; see here for different <a href="http://logging.apache.org/log4net/release/config-examples.html">appender examples</a>.</p>
 
-<p>The easy part was hosting; <a href="https://pages.github.com/">GitHub pages</a>, it&rsquo;s free and provide full flexibility.</p>
+<h2 id="why-blog-about-it">Why Blog about it?</h2>
 
-<p>I wanted to use <a href="https://gohugo.io/">Hugo</a> as it allows for very customisable themes (I could create my own in the future). But right now I wanted a quick solution. I could potential use one of them blogging sites like <a href="https://wordpress.com">wordpress</a>, but that&rsquo;s boring.</p>
+<p>Log4Net is an heavily used tool, there are lots of tutorials out there. But even though I&rsquo;ve done it lots of times before I always forget the set-up steps. So I thought that documenting the process that I take may help me remember.</p>
 
-<h2 id="the-plan">The Plan</h2>
+<h2 id="implementing-log4net">Implementing Log4Net</h2>
 
-<p>So the plan for now goes like*:</p>
+<p>Implementing Log4Net is actually quite a simple process. If you are using NugGet for package management just go and get the Log4Net package.</p>
 
-<ol>
-<li>Set-up a hugo site <strong>template</strong>; This will have all the boilerplate.</li>
-<li>Write a couple of blog posts using markdown (what I&rsquo;m doing currently).</li>
-<li>Write the console application to copy &amp; paste the markdown to the hugo site.</li>
-<li>Run Hugo like: <code>&gt; Hugo</code>.</li>
-<li>Run a small copy &amp; past script to copy the outputted <code>public</code> folder to the location of my GitHub pages site.</li>
-</ol>
+<h3 id="installation">Installation</h3>
 
-<blockquote>
-<p>* Eventually instead of manually doing the above, it will be completed automatically, either by online tools or as a scheduled task.</p>
-</blockquote>
+<p><img src="/img/blog/2019-02-19-Log4Net/Log4Net_Nuget.PNG" alt="Log4Net NugGet" /></p>
+
+<p>If not you can download the source or binaries from here: <a href="http://logging.apache.org/log4net/download_log4net.cgi">http://logging.apache.org/log4net/download_log4net.cgi</a>. Then reference the binaries wherever you keep your dependencies.</p>
+
+<h3 id="configuring">Configuring</h3>
+
+<p>The next step is to add the configuration to your application start. This will vary in lots of different ways depending on your application type. (I will be discussing an MVC web application in this blog).</p>
+
+<p>For more configuration tutorials see <a href="logging.apache.org/log4net/release/manual/configuration.html">logging.apache.org/log4net/release/manual/configuration.html
+</a></p>
+
+<p>In the <code>Global.asax.cs</code> file add the following line of code at the end of the <code>Application_Start()</code> method.</p>
+
+<pre><code class="language-CSharp">protected void Application_Start()
+{
+    // Application Setup
+    Config.XmlConfigurator.Configure();
+}
+</code></pre>
+
+<p>do not forget to add the Log4Net using statements:</p>
+
+<pre><code class="language-CSharp">// Import log4net classes.
+using log4net;
+using log4net.Config;
+</code></pre>
+
+<p>Now let&rsquo;s configure the application&hellip; Open the <code>web.config</code> and add the following:</p>
+
+<pre><code class="language-xml">&lt;configSections&gt;
+    &lt;section name=&quot;log4net&quot; type=&quot;log4net.Config.Log4NetConfigurationSectionHandler, log4net&quot; /&gt;
+&lt;/configSections&gt;
+&lt;log4net&gt;
+    &lt;appender name=&quot;RollingFileAppender&quot; type=&quot;log4net.Appender.RollingFileAppender&quot;&gt;
+        &lt;file value=&quot;log.txt&quot; /&gt;
+        &lt;appendToFile value=&quot;true&quot; /&gt;
+        &lt;rollingStyle value=&quot;Size&quot; /&gt;
+        &lt;maxSizeRollBackups value=&quot;10&quot; /&gt;
+        &lt;maximumFileSize value=&quot;100KB&quot; /&gt;
+        &lt;staticLogFileName value=&quot;true&quot; /&gt;
+        &lt;layout type=&quot;log4net.Layout.PatternLayout&quot;&gt;
+            &lt;conversionPattern value=&quot;%date [%thread] %-5level %logger [%property{NDC}] - %message%newline&quot; /&gt;
+        &lt;/layout&gt;
+    &lt;/appender&gt;
+    &lt;root&gt;
+        &lt;level value=&quot;INFO&quot; /&gt; &lt;!-- Logging Level --&gt;
+        &lt;appender-ref ref=&quot;RollingFileAppender&quot; /&gt; &lt;!-- Appenders (can have multiple) --&gt;
+    &lt;/root&gt;
+&lt;/log4net&gt;
+</code></pre>
+
+<p>See <a href="http://logging.apache.org/log4net/release/config-examples.html">http://logging.apache.org/log4net/release/config-examples.html</a> for more appender examples.</p>
+
+<h3 id="usage">Usage</h3>
+
+<p>Finally to log to your chosen appenders we need to get the logger. At the of your class you want to log for:</p>
+
+<pre><code class="language-CSharp">public class HomeController {
+    // Get the logger
+    private static readonly ILog log = LogManager.GetLogger(typeof(HomeController));
+
+    public ActionResult index() {
+        //...
+
+        // Log with different levels.
+        log.Info(&quot;message&quot;);
+        log.Debug(&quot;message&quot;);
+        log.Error(&quot;message&quot;);
+
+        // Or with the exception (This is not working code)
+        log.Info(&quot;message&quot;, Exception);
+        log.Debug(&quot;message&quot;, Exception);
+        log.Error(&quot;message&quot;, Exception);
+
+        return View();
+    }
+
+    //...
+}
+</code></pre>
+
+<p>That&rsquo;s it I can now log to my hearts content within the class. Note each new class will need to get a new Logger.</p>
+
+<ul>
+<li>For more information on Log4Net see the documentation at <a href="http://logging.apache.org/log4net/release/features.html">http://logging.apache.org/log4net/release/features.html</a></li>
+<li>Additionally I suggest reading up on good logging practices, Jason Taylor&rsquo;s article: <a href="https://stackify.com/csharp-logging-best-practices/">How to Take Logging to the Next Level With Improved .NET Logging Best Practices</a> is a good place to start.</li>
+</ul>
 
 
                 
@@ -223,15 +311,10 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/2019-01-11-stickfeeditems/" data-toggle="tooltip" data-placement="top" title="Returning Negative and Positive Numbers">&larr;
+                        <a href="/post/2019-02-10-updatingblogusinggitsubmodules/" data-toggle="tooltip" data-placement="top" title="Updating the Blog using Git Submodules">&larr;
                             Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/post/2019-02-10-updatingblogusinggitsubmodules/" data-toggle="tooltip" data-placement="top" title="Updating the Blog using Git Submodules">Next
-                            Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

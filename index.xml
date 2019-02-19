@@ -6,10 +6,20 @@
     <description>Recent content on Shane&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gunn3r1995.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Logging with Log4Net</title>
+      <link>https://gunn3r1995.github.io/post/2019-02-19-log4net/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunn3r1995.github.io/post/2019-02-19-log4net/</guid>
+      <description>What is Log4Net? Log4Net is a very useful logging tool for .NET projects. For easy to configure and implement logging to multiple destinations including Console, File, SQL databases, and many others; see here for different appender examples.
+Why Blog about it? Log4Net is an heavily used tool, there are lots of tutorials out there. But even though I&amp;rsquo;ve done it lots of times before I always forget the set-up steps.</description>
+    </item>
     
     <item>
       <title>Books</title>
